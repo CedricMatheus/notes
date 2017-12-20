@@ -6,7 +6,7 @@ Aplicativo de cadastro de usuários e notas.
 
 **Linguagem:** Python 3.x
 
-**Framework:** Windows
+**Framework:** Django
 
 API back-end exclusiva para requisições HTTP.
 
