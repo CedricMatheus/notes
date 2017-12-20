@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- metas bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Notes: Login</title>
+
+    <!-- css bootstrap -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+</head>
+
+<body>
+    
+    <!-- cabeçalho -->
+    <nav class="navbar navbar-light bg-faded cabecalho">
+        <h1 class="navbar-brand mb-0">Notes</h1>
+    </nav>
+
+    <!-- card login -->
+    <div class="card text-center login">
+
+        <!-- card cabeçalho -->
+        <h3 class="card-title">Login</h3>
+
+        <!-- card corpo -->
+        <div class="card-block">
+
+            <form id="form_login" method="POST">
+                <!-- email input -->
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="usarname" name="username"
+                        placeholder="E-mail">
+                </div>
+
+                <!-- senha input -->
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="password" name="password"
+                        placeholder="Senha">
+                </div>
+
+                <!-- button login -->
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+        
+        <!-- button cadastrar -->
+        <div class="button_rodape">
+            <a href="#" id="bot_cadastrar" class="btn btn-primary">Cadastrar</a>
+        </div>
+    </div>
+
+    <!-- scripts bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <!-- script jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <!-- script regras gerais -->
+    <script src="scripts/regras.js"></script>
+
+    <!-- script eventos -->
+    <script src="scripts/eventos.js"></script>
+</body>
+
+</html>

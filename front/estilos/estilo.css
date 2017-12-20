@@ -1,0 +1,42 @@
+.card {
+    width: 30em;
+    margin: auto;
+}
+
+.cabecalho {
+    margin-bottom: 1em;
+}
+
+.text-left > label{
+    margin-left: .5em;
+}
+
+.card-title {
+    margin-top: .5em;
+}
+
+.button_rodape {
+    margin: 1em 0;
+}
+
+.logout {
+    float: right;
+    text-align: right;
+}
+
+.logout > *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.notas {
+    margin-top: 1em;
+}
+
+.acoes {
+    font-size: 1.5em;
+}
+
+.list-group-item {
+    padding: .2em 1em;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- metas bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Notes: Nova Nota</title>
+
+    <!-- css bootstrap -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <nav class="navbar navbar-light bg-faded cabecalho">
+        <div class="navbar-header">
+            
+            <!-- logo -->
+            <a class="navbar-brand" href="#">Notes</a>
+            
+            <!-- logout -->
+            <div class="navbar-nav logout">
+
+                <!-- boas vindas -->
+                <span class="navbar-text">
+                    Olá <span id="nome"></span>
+                </span><br>
+
+                <!-- sair -->
+                <a class="nav-item nav-link" id="link_logout" href="#">Sair</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- corpo -->
+    <div class="container-fluid text-center">
+
+        <!-- titulo -->
+        <h1>Nova Nota</h1>
+
+        <!-- formulário -->
+        <div class="container">
+            <form id="form_nova_nota" method="POST">
+                <!-- titulo input -->
+                <div class="form-group row">
+                    <label class="col-1 col-form-label" for="titulo">Título</label>
+                    <div class="col-11">
+                        <input type="text" class="form-control" id="titulo"
+                            name="titulo" placeholder="Título">
+                    </div>
+                </div>
+
+                <!-- nota text -->
+                <div class="form-group text-left">
+                    <textarea class="form-control" id="nota" name="nota" rows="5"
+                        placeholder="Nota"></textarea>
+                </div>
+
+                <!-- button login -->
+                <div class="text-right">
+                    <a href="#" id="bot_cancelar_nota" class="btn btn-primary">Cancelar</a>
+                    <button type="submit" class="btn btn-primary">Salvar Nota</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- scripts bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <!-- script json -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <!-- script regras gerais -->
+    <script src="scripts/regras.js"></script>
+
+    <!-- script eventos -->
+    <script src="scripts/eventos.js"></script>
+</body>
+
+</html>
